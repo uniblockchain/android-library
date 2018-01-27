@@ -35,6 +35,7 @@ public class OwnCloudVersion implements Comparable<OwnCloudVersion> {
     public static final OwnCloudVersion nextcloud_10 = new OwnCloudVersion(0x0A000000); // 10.0
     public static final OwnCloudVersion nextcloud_12 = new OwnCloudVersion(0x0C000000); // 12.0
     public static final OwnCloudVersion nextcloud_13 = new OwnCloudVersion(0x0D000000); // 13.0
+    public static final OwnCloudVersion nextcloud_14 = new OwnCloudVersion(0x0E000000); // 14.0
 
     public static final int MINIMUN_VERSION_FOR_CHUNKED_UPLOADS = 0x04050000; // 4.5
 
